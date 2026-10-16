@@ -19,5 +19,3 @@ What ties it together is verification. I check conservation laws, convergence an
 ## Stack
 
 Python (NumPy, PyTorch) · C++ · OpenMP · pybind11 · Slurm · Linux/WSL
-
-## Currently searching a job, based in Luxembourg
