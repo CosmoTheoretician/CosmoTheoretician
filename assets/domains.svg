@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="160" viewBox="0 0 380 160" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="380" height="160" rx="22" fill="#1a1d24"/>
+<text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#f5f5f7" opacity="0.75">CORE DOMAINS</text>
+<text x="36" y="94" font-size="28" font-weight="800" fill="#f5f5f7">Plasma · Gravity · Orbits</text>
+<text x="36" y="136" font-size="16" font-weight="500" fill="#f5f5f7">Laser-plasma instabilities, N-body</text>
+<text x="36" y="160.0" font-size="16" font-weight="500" fill="#f5f5f7">dynamics, mission trajectories.</text>
+</svg>

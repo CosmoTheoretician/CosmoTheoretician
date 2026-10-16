@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="600" height="260" rx="22" fill="#d4ff3f"/>
+<text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">03</text>
+<text x="36" y="106" font-size="40" font-weight="800" fill="#0f1117">Orbital mechanics</text>
+<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">A sandbox for modelling real mission trajectories, perturbations</text>
+<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">and low-thrust manoeuvres.</text>
+</svg>
