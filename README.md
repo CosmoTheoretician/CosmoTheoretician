@@ -7,7 +7,6 @@
 
 <p align="center">
 <a href="https://github.com/CosmoTheoretician?tab=repositories">Repositories</a> ·
-<a href="mailto:you@example.com">Contact</a>
 </p>
 
 ## Selected work
