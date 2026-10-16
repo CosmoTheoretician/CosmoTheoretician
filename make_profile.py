@@ -17,7 +17,7 @@ fig.savefig("assets/banner.svg", transparent=True); plt.close()
 
 # --- cards ---------------------------------------------------------------
 def card(name, w, h, bg, fg, kicker, title, body, title_size=48, body_size=19):
-    lines = textwrap.wrap(body, width=int(w / (body_size * 0.55)))
+    lines = textwrap.wrap(body, width=int(w / (body_size * 0.62)))
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
            f'viewBox="0 0 {w} {h}" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">',
            f'<rect width="{w}" height="{h}" rx="22" fill="{bg}"/>',
@@ -32,13 +32,13 @@ def card(name, w, h, bg, fg, kicker, title, body, title_size=48, body_size=19):
 
 PURPLE, LIME, DARK, CORAL, INK, PALE = "#8b7cf6", "#d4ff3f", "#1a1d24", "#f28b6a", "#0f1117", "#f5f5f7"
 
-card("hero", 820, 330, PURPLE, INK, "COMPUTATIONAL PHYSICIST · PLASMA · GRAVITY",
+card("hero", 820, 280, PURPLE, INK, "COMPUTATIONAL PHYSICIST · PLASMA · GRAVITY",
      "COSMOTHEORETICIAN",
      "I build and stress-test numerical simulations: particle-in-cell parameter studies on HPC "
      "clusters, and my own solvers written to understand the physics from the ground up.")
-card("focus", 380, 150, LIME, INK, "CURRENT FOCUS", "Verification first.",
+card("focus", 380, 200, LIME, INK, "CURRENT FOCUS", "Verification first.",
      "Conservation laws, convergence and benchmarks before trusting a number.", title_size=30, body_size=16)
-card("domains", 380, 160, DARK, PALE, "CORE DOMAINS", "Plasma · Gravity · Orbits",
+card("domains", 380, 210, DARK, PALE, "CORE DOMAINS", "Plasma · Gravity · Orbits",
      "Laser-plasma instabilities, N-body dynamics, mission trajectories.", title_size=28, body_size=16)
 
 card("plasma", 600, 260, PURPLE, INK, "01", "Plasma physics",

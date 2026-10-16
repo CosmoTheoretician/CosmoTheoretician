@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="330" viewBox="0 0 820 330" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-<rect width="820" height="330" rx="22" fill="#8b7cf6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280" viewBox="0 0 820 280" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="820" height="280" rx="22" fill="#8b7cf6"/>
 <text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">COMPUTATIONAL PHYSICIST · PLASMA · GRAVITY</text>
 <text x="36" y="114" font-size="48" font-weight="800" fill="#0f1117">COSMOTHEORETICIAN</text>
-<text x="36" y="156" font-size="19" font-weight="500" fill="#0f1117">I build and stress-test numerical simulations: particle-in-cell parameter</text>
-<text x="36" y="184.5" font-size="19" font-weight="500" fill="#0f1117">studies on HPC clusters, and my own solvers written to understand the physics</text>
-<text x="36" y="213.0" font-size="19" font-weight="500" fill="#0f1117">from the ground up.</text>
+<text x="36" y="156" font-size="19" font-weight="500" fill="#0f1117">I build and stress-test numerical simulations: particle-in-cell</text>
+<text x="36" y="184.5" font-size="19" font-weight="500" fill="#0f1117">parameter studies on HPC clusters, and my own solvers written to</text>
+<text x="36" y="213.0" font-size="19" font-weight="500" fill="#0f1117">understand the physics from the ground up.</text>
 </svg>

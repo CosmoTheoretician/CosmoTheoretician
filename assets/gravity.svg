@@ -2,8 +2,8 @@
 <rect width="600" height="260" rx="22" fill="#f28b6a"/>
 <text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">02</text>
 <text x="36" y="106" font-size="40" font-weight="800" fill="#0f1117">Gravitational dynamics</text>
-<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">A neutral reproduction and stress test of the 1990s twin-matter</text>
-<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">(negative mass) N-body simulations: 2D particle-mesh code with</text>
-<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">convergence tests, seed ensembles, and runs with and without</text>
-<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">cosmic expansion.</text>
+<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">A neutral reproduction and stress test of the 1990s</text>
+<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">twin-matter (negative mass) N-body simulations: 2D</text>
+<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">particle-mesh code with convergence tests, seed</text>
+<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">ensembles, and runs with and without cosmic expansion.</text>
 </svg>

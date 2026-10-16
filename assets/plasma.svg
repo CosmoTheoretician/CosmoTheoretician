@@ -2,8 +2,9 @@
 <rect width="600" height="260" rx="22" fill="#8b7cf6"/>
 <text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">01</text>
 <text x="36" y="106" font-size="40" font-weight="800" fill="#0f1117">Plasma physics</text>
-<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">Dimensionless relativistic two-fluid + Maxwell solver for SRS,</text>
-<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">SBS and TPD; 3D radiation-hydro ablation code with a C++/OpenMP</text>
-<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">core and Python frontend; coupled-mode and Vlasov models for</text>
-<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">growth rates, Landau damping and particle trapping.</text>
+<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">Dimensionless relativistic two-fluid + Maxwell solver</text>
+<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">for SRS, SBS and TPD; 3D radiation-hydro ablation code</text>
+<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">with a C++/OpenMP core and Python frontend; coupled-mode</text>
+<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">and Vlasov models for growth rates, Landau damping and</text>
+<text x="36" y="250.0" font-size="17" font-weight="500" fill="#0f1117">particle trapping.</text>
 </svg>

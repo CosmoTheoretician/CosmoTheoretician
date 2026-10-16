@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="380" height="150" viewBox="0 0 380 150" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-<rect width="380" height="150" rx="22" fill="#d4ff3f"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="200" viewBox="0 0 380 200" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="380" height="200" rx="22" fill="#d4ff3f"/>
 <text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">CURRENT FOCUS</text>
 <text x="36" y="96" font-size="30" font-weight="800" fill="#0f1117">Verification first.</text>
 <text x="36" y="138" font-size="16" font-weight="500" fill="#0f1117">Conservation laws, convergence and</text>
