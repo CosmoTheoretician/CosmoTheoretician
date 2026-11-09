@@ -2,9 +2,9 @@
 <rect width="600" height="338" rx="22" fill="#d4ff3f"/>
 <text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">04</text>
 <text x="36" y="106" font-size="40" font-weight="800" fill="#0f1117">Orbital mechanics</text>
-<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">orbit-lab, a real-time 3D orbit visualizer in the</text>
-<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">browser: 15,000+ satellites propagated with SGP4, and</text>
-<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">lunar missions including a reconstruction of ispace's</text>
-<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">RESILIENCE validated against radio-telescope Doppler</text>
-<text x="36" y="250.0" font-size="17" font-weight="500" fill="#0f1117">data.</text>
+<text x="36" y="146.0" font-size="22.0" font-weight="500" fill="#0f1117">orbit-lab, a real-time 3D orbit visualizer in</text>
+<text x="36" y="177.9" font-size="22.0" font-weight="500" fill="#0f1117">the browser: 15,000+ satellites propagated with</text>
+<text x="36" y="209.8" font-size="22.0" font-weight="500" fill="#0f1117">SGP4, and lunar missions including a</text>
+<text x="36" y="241.7" font-size="22.0" font-weight="500" fill="#0f1117">reconstruction of ispace's RESILIENCE validated</text>
+<text x="36" y="273.6" font-size="22.0" font-weight="500" fill="#0f1117">against radio-telescope Doppler data.</text>
 </svg>
