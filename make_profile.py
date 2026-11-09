@@ -32,28 +32,25 @@ def card(name, w, h, bg, fg, kicker, title, body, title_size=48, body_size=19):
 
 PURPLE, LIME, DARK, CORAL, INK, PALE = "#8b7cf6", "#d4ff3f", "#1a1d24", "#f28b6a", "#0f1117", "#f5f5f7"
 
-card("hero", 820, 280, PURPLE, INK, "COMPUTATIONAL PHYSICIST · PLASMA · GRAVITY",
+card("hero", 820, 280, PURPLE, INK, "COMPUTATIONAL PHYSICIST · PLASMA · ORBITS",
      "COSMOTHEORETICIAN",
      "I build and stress-test numerical simulations: particle-in-cell parameter studies on HPC "
      "clusters, and my own solvers written to understand the physics from the ground up.")
 card("focus", 380, 200, LIME, INK, "CURRENT FOCUS", "Verification first.",
      "Conservation laws, convergence and benchmarks before trusting a number.", title_size=30, body_size=16)
-card("domains", 380, 210, DARK, PALE, "CORE DOMAINS", "Plasma · Gravity · Orbits",
-     "Laser-plasma instabilities, N-body dynamics, mission trajectories.", title_size=28, body_size=16)
+card("domains", 380, 210, DARK, PALE, "CORE DOMAINS", "Plasma · Orbits",
+     "Laser-plasma instabilities, particle-in-cell simulations, mission trajectories.", title_size=28, body_size=16)
 
-card("plasma", 600, 260, PURPLE, INK, "01", "Plasma physics",
+card("thesis", 600, 338, CORAL, INK, "01 · BACHELOR THESIS", "Parametric plasma waves",
+     "2D particle-in-cell campaign on HPC: a laser crossing an underdense gas jet near the "
+     "quarter-critical density. The stimulated Raman back-scatter wave saturates at 0.55 TV/m "
+     "through electron trapping, up to 0.75 TV/m with short pulses. Every number checked against "
+     "16 particles per cell and independent random seeds.", title_size=40, body_size=17)
+card("plasma", 600, 260, PURPLE, INK, "02", "Plasma physics",
      "Dimensionless relativistic two-fluid + Maxwell solver for SRS, SBS and TPD; 3D "
      "radiation-hydro ablation code with a C++/OpenMP core and Python frontend; coupled-mode "
      "and Vlasov models for growth rates, Landau damping and particle trapping.", title_size=40, body_size=17)
-card("gravity", 600, 260, CORAL, INK, "02", "Gravitational dynamics",
-     "A neutral reproduction and stress test of the 1990s twin-matter (negative mass) N-body "
-     "simulations: 2D particle-mesh code with convergence tests, seed ensembles, and runs with "
-     "and without cosmic expansion.", title_size=40, body_size=17)
 card("orbits", 600, 260, LIME, INK, "03", "Orbital mechanics",
      "A sandbox for modelling real mission trajectories, perturbations and low-thrust manoeuvres.",
-     title_size=40, body_size=17)
-card("tooling", 600, 260, DARK, PALE, "04", "Tooling",
-     "Pipelines that crawl, organise and analyse large document sets with LLMs; multi-agent "
-     "workflows that write simulation stages behind human approval gates; GPU computing on AMD/ROCm.",
      title_size=40, body_size=17)
 print("done")

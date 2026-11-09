@@ -12,11 +12,11 @@
 ## Selected work
 
 <table><tr>
-<td width="50%"><img src="assets/plasma.svg" width="100%"></td>
-<td width="50%"><img src="assets/gravity.svg" width="100%"></td>
+<td width="50%"><img src="assets/thesis.svg" width="100%"></td>
+<td width="50%"><img src="assets/thesis-jet.gif" width="100%" alt="Electrons in the laser-driven gas jet, from the thesis simulation"></td>
 </tr><tr>
+<td width="50%"><img src="assets/plasma.svg" width="100%"></td>
 <td width="50%"><img src="assets/orbits.svg" width="100%"></td>
-<td width="50%"><img src="assets/tooling.svg" width="100%"></td>
 </tr></table>
 
 **Stack** · Python (NumPy, PyTorch) · C++ · OpenMP · pybind11 · Slurm · Linux/WSL

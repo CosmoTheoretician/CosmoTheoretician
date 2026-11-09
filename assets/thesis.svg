@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="338" viewBox="0 0 600 338" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="600" height="338" rx="22" fill="#f28b6a"/>
+<text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">01 · BACHELOR THESIS</text>
+<text x="36" y="106" font-size="40" font-weight="800" fill="#0f1117">Parametric plasma waves</text>
+<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">2D particle-in-cell campaign on HPC: a laser crossing an</text>
+<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">underdense gas jet near the quarter-critical density.</text>
+<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">The stimulated Raman back-scatter wave saturates at 0.55</text>
+<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">TV/m through electron trapping, up to 0.75 TV/m with</text>
+<text x="36" y="250.0" font-size="17" font-weight="500" fill="#0f1117">short pulses. Every number checked against 16 particles</text>
+<text x="36" y="275.5" font-size="17" font-weight="500" fill="#0f1117">per cell and independent random seeds.</text>
+</svg>
