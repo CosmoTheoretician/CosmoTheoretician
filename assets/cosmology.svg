@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="338" viewBox="0 0 600 338" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="600" height="338" rx="22" fill="#1a1d24"/>
+<text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#f5f5f7" opacity="0.75">03</text>
+<text x="36" y="106" font-size="40" font-weight="800" fill="#f5f5f7">Cosmology</text>
+<text x="36" y="148" font-size="17" font-weight="500" fill="#f5f5f7">skua, a test rig for cosmological expansion histories:</text>
+<text x="36" y="173.5" font-size="17" font-weight="500" fill="#f5f5f7">validated against DESI DR2, Planck and three supernova</text>
+<text x="36" y="199.0" font-size="17" font-weight="500" fill="#f5f5f7">catalogues, and used to reproduce and calibrate the</text>
+<text x="36" y="224.5" font-size="17" font-weight="500" fill="#f5f5f7">evidence for evolving dark energy. Plus background fits</text>
+<text x="36" y="250.0" font-size="17" font-weight="500" fill="#f5f5f7">of alternative cosmologies to BAO, supernovae and cosmic</text>
+<text x="36" y="275.5" font-size="17" font-weight="500" fill="#f5f5f7">chronometers with MCMC posteriors.</text>
+</svg>

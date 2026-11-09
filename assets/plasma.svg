@@ -1,10 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-<rect width="600" height="260" rx="22" fill="#8b7cf6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="338" viewBox="0 0 600 338" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="600" height="338" rx="22" fill="#8b7cf6"/>
 <text x="36" y="48" font-size="13" letter-spacing="3" font-weight="700" fill="#0f1117" opacity="0.75">02</text>
 <text x="36" y="106" font-size="40" font-weight="800" fill="#0f1117">Plasma physics</text>
-<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">Dimensionless relativistic two-fluid + Maxwell solver</text>
-<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">for SRS, SBS and TPD; 3D radiation-hydro ablation code</text>
-<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">with a C++/OpenMP core and Python frontend; coupled-mode</text>
-<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">and Vlasov models for growth rates, Landau damping and</text>
-<text x="36" y="250.0" font-size="17" font-weight="500" fill="#0f1117">particle trapping.</text>
+<text x="36" y="148" font-size="17" font-weight="500" fill="#0f1117">icfsim, a verification-first radiation-hydrodynamics</text>
+<text x="36" y="173.5" font-size="17" font-weight="500" fill="#0f1117">code for inertial confinement fusion, growing toward an</text>
+<text x="36" y="199.0" font-size="17" font-weight="500" fill="#0f1117">integrated direct-drive implosion validated against</text>
+<text x="36" y="224.5" font-size="17" font-weight="500" fill="#0f1117">OMEGA data. Also a relativistic two-fluid + Maxwell</text>
+<text x="36" y="250.0" font-size="17" font-weight="500" fill="#0f1117">solver for SRS, SBS and TPD, and coupled-mode and Vlasov</text>
+<text x="36" y="275.5" font-size="17" font-weight="500" fill="#0f1117">models for growth rates, Landau damping and particle</text>
+<text x="36" y="301.0" font-size="17" font-weight="500" fill="#0f1117">trapping.</text>
 </svg>

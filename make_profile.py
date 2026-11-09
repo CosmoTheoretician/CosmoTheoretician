@@ -32,25 +32,48 @@ def card(name, w, h, bg, fg, kicker, title, body, title_size=48, body_size=19):
 
 PURPLE, LIME, DARK, CORAL, INK, PALE = "#8b7cf6", "#d4ff3f", "#1a1d24", "#f28b6a", "#0f1117", "#f5f5f7"
 
-card("hero", 820, 280, PURPLE, INK, "COMPUTATIONAL PHYSICIST · PLASMA · ORBITS",
+card("hero", 820, 280, PURPLE, INK, "COMPUTATIONAL PHYSICIST · PLASMA · COSMOLOGY",
      "COSMOTHEORETICIAN",
      "I build and stress-test numerical simulations: particle-in-cell parameter studies on HPC "
      "clusters, and my own solvers written to understand the physics from the ground up.")
 card("focus", 380, 200, LIME, INK, "CURRENT FOCUS", "Verification first.",
      "Conservation laws, convergence and benchmarks before trusting a number.", title_size=30, body_size=16)
-card("domains", 380, 210, DARK, PALE, "CORE DOMAINS", "Plasma · Orbits",
-     "Laser-plasma instabilities, particle-in-cell simulations, mission trajectories.", title_size=28, body_size=16)
+card("domains", 380, 210, DARK, PALE, "CORE DOMAINS", "Plasma · Cosmology · Orbits",
+     "Laser-plasma instabilities, expansion histories, mission trajectories.", title_size=28, body_size=16)
 
+# Selected work: a description card (left) and a figure panel (right) per row, all 600x338
 card("thesis", 600, 338, CORAL, INK, "01 · BACHELOR THESIS", "Parametric plasma waves",
      "2D particle-in-cell campaign on HPC: a laser crossing an underdense gas jet near the "
      "quarter-critical density. The stimulated Raman back-scatter wave saturates at 0.55 TV/m "
      "through electron trapping, up to 0.75 TV/m with short pulses. Every number checked against "
      "16 particles per cell and independent random seeds.", title_size=40, body_size=17)
-card("plasma", 600, 260, PURPLE, INK, "02", "Plasma physics",
-     "Dimensionless relativistic two-fluid + Maxwell solver for SRS, SBS and TPD; 3D "
-     "radiation-hydro ablation code with a C++/OpenMP core and Python frontend; coupled-mode "
-     "and Vlasov models for growth rates, Landau damping and particle trapping.", title_size=40, body_size=17)
-card("orbits", 600, 260, LIME, INK, "03", "Orbital mechanics",
-     "A sandbox for modelling real mission trajectories, perturbations and low-thrust manoeuvres.",
-     title_size=40, body_size=17)
+card("plasma", 600, 338, PURPLE, INK, "02", "Plasma physics",
+     "icfsim, a verification-first radiation-hydrodynamics code for inertial confinement fusion, "
+     "growing toward an integrated direct-drive implosion validated against OMEGA data. Also a "
+     "relativistic two-fluid + Maxwell solver for SRS, SBS and TPD, and coupled-mode and Vlasov "
+     "models for growth rates, Landau damping and particle trapping.", title_size=40, body_size=17)
+card("cosmology", 600, 338, DARK, PALE, "03", "Cosmology",
+     "skua, a test rig for cosmological expansion histories: validated against DESI DR2, Planck "
+     "and three supernova catalogues, and used to reproduce and calibrate the evidence for "
+     "evolving dark energy. Plus background fits of alternative cosmologies to BAO, supernovae "
+     "and cosmic chronometers with MCMC posteriors.", title_size=40, body_size=17)
+card("orbits", 600, 338, LIME, INK, "04", "Orbital mechanics",
+     "orbit-lab, a real-time 3D orbit visualizer in the browser: 15,000+ satellites propagated "
+     "with SGP4, and lunar missions including a reconstruction of ispace's RESILIENCE validated "
+     "against radio-telescope Doppler data.", title_size=40, body_size=17)
+
+# figure panels: the source figure fitted into a rounded 1200x676 panel (2x of 600x338)
+from PIL import Image, ImageDraw
+def panel(name, src, bg):
+    W, H, pad = 1200, 676, 28
+    im = Image.open(f"assets/src/{src}").convert("RGB")
+    k = min((W - 2*pad) / im.width, (H - 2*pad) / im.height)
+    im = im.resize((round(im.width*k), round(im.height*k)), Image.LANCZOS)
+    out = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(out).rounded_rectangle((0, 0, W-1, H-1), 44, fill=bg)
+    out.paste(im, ((W - im.width)//2, (H - im.height)//2))
+    out.save(f"assets/{name}.png", optimize=True)
+panel("plasma-fig", "icfsim_resolution.png", "#1a1d24")
+panel("cosmology-fig", "skua_w0wa.png", "#ffffff")
+panel("orbits-fig", "orbit_lab.png", "#000000")
 print("done")
